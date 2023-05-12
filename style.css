@@ -1,0 +1,199 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: cordel;
+    src: url(KaytekHeadline-Black/KaytekHeadline-Black.ttf);
+    src: url(KaytekHeadline-Black/KaytekHeadline-Black.woff);
+    src: url(KaytekHeadline-Black/KaytekHeadline-Black.woff2);
+}
+
+@font-face {
+    font-family: escrita;
+    src: url(odaiba_script/Odaiba\ Script\ DEMO.otf);
+}
+
+header div {
+    background-color: black;
+}
+
+header div h1 {
+    display: flex;
+    color: white;
+    font-family: cordel;
+    font-size: 10vw;
+    font-variant: small-caps;
+    justify-content: center;
+}
+
+header div p {
+    margin: 0px;
+    padding: 0px;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding-bottom: 25px;
+}
+
+header div a {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header div a:hover {
+    background-color: rgba(0, 59, 59, 0.622);
+    padding: 4px 4px;
+    text-decoration: underline;
+    border-radius: 5px;
+    transition-duration: 0.2s;
+}
+
+p {
+    text-align: start;
+    margin: 50px 0px 150px 30px;
+    padding: 0px 0px 0px 0px;
+    font-size: 60px;
+    font-family: escrita;
+    line-height: 100px;
+    font-weight: 500;
+}
+
+p.destaque {
+    display: inline-block;
+    font-weight: lighter;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.657);
+    font-family: escrita;
+    margin: 50px 62% 50px 50px;
+    padding: 20px;
+    font-size: 50px;
+    line-height: 80px;
+}
+
+section.imagem1 {
+    padding: 10px 0px 10px 0px;
+    background-image: url(background001.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+    box-shadow: inset 0px 6px 12px rgba(0, 0, 0, 0.487);
+}
+
+
+section.imagem2 {
+    padding: 10px 0px 10px 0px;
+    object-fit: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(background002.jpg);
+    box-shadow: inset 0px 6px 12px rgba(0, 0, 0, 0.487);
+}
+
+
+footer h2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    padding: 10px 0px;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+footer a:hover {
+    background-color: rgba(0, 59, 59, 0.622);
+    padding: 4px 4px;
+    text-decoration: underline;
+    border-radius: 5px;
+    transition-duration: 0.2s;
+}
+
+@media (max-width: 600px) {
+    p {
+        text-align: start;
+        margin: 50px 0px 50px 10px;
+        padding: 0px 0px 0px 0px;
+        font-size: 30px;
+        font-family: escrita;
+        line-height: 50px;
+        font-weight: 500;
+    }
+    
+    p.destaque {
+        display: inline-block;
+        font-weight: lighter;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.657);
+        font-family: escrita;
+        margin: 50px 50px 50px 20px;
+        padding: 20px;
+        font-size: 22px;
+        line-height: 40px;
+    }
+
+    section.imagem1 {
+        padding: 10px 0px 10px 0px;
+        background-image: url(background001.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        box-shadow: inset 0px 6px 12px rgba(0, 0, 0, 0.487);
+    }
+    
+    footer h2 {
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-weight: lighter;
+        padding: 10px 0px;
+        font-size: 14px;
+    }
+
+}
+
+@media (min-width:601px) and (max-width:1200px){
+    
+    p {
+        text-align: start;
+        margin: 50px 0px 50px 10px;
+        padding: 0px 0px 0px 0px;
+        font-size: 35px;
+        font-family: escrita;
+        line-height: 80px;
+        font-weight: 500;
+    }
+    
+    p.destaque {
+        display: inline-block;
+        font-weight: lighter;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.657);
+        font-family: escrita;
+        margin: 50px 125px 150px 20px;
+        padding: 20px;
+        font-size: 22px;
+        line-height: 40px;
+    }
+
+    footer h2 {
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-weight: lighter;
+        padding: 10px 0px;
+        font-size: 14px;
+    }
+
+}
+
